@@ -1,0 +1,224 @@
+/*Universal*/ 
+html{
+    font-size: 15px; 
+    margin: 0; 
+}
+
+body{
+    font-family: alice;
+    margin:0; 
+    line-height: 25px; ;
+    text-align: center; 
+    background-color: rgba(255, 241, 233, 0.94);
+}
+
+a{
+    text-decoration: none;
+    color: slateblue; 
+}
+
+
+a:hover{
+    color: red; 
+    font-weight: bold;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#button{
+    background-color: #B2967D;
+}
+#button:hover{
+    color: aquamarine;
+    border: 1px solid black;
+    border-radius: 2px;
+    opacity: .7;
+}
+.section{
+    max-width: 1100px;
+    width: 85%;
+    margin: 50px auto;
+    border-top: 0.5px solid  #B2967D;
+    padding-top: 20px 
+}
+#case-img{
+    width: 500px; 
+    height: auto; 
+}
+/*header==================================*/
+
+header{
+    background-color: thistle;
+    font-size: 20px;
+    width: 100%;
+    position: fixed;
+    padding: 15px;
+    z-index: 1;
+    word-spacing: 2px; 
+}
+.header-button{
+    background: rgb(202, 216, 232);
+    margin: 0 5px;
+    padding: 5px; 
+}
+.header-button:hover{
+    color: teal;
+}
+
+/*main======================================*/
+
+main{
+    width: 100%;
+    padding: 55px;
+}
+
+#logo{
+    width: 350px;
+    height: 350px;
+    padding: 0;
+    margin: 0 auto; 
+}
+
+nav{
+    border-top: 0.5px solid  #B2967D;
+    border-bottom: 0.5px solid  #B2967D;
+    max-width: 1100px; 
+    margin: 0 auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 10 px; 
+    margin: 0; 
+    width: 100%;
+}
+
+nav li{
+    padding: 0 60px; 
+}
+
+.cover{
+    background-image: url(./images/Ivory\ and\ Ash\ Grey\ Photo\ DIY\ Influencer\ Minimalist\ Facebook\ Cover.png); 
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 700px;
+    width: 1000px;
+    margin: 50px auto ;
+}
+
+/*about ========================*/
+
+.about{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Jae{
+    width: 100%;
+}
+.JaePhoto{
+    width: 800px;
+    height: 700px;
+}
+
+.Jae p{
+    width: 100%;
+    font-size: 20px;
+}
+
+/*case study===========================*/
+
+.focus{ 
+    padding: 0 40px;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+}
+
+.focus h2 {
+    text-transform: uppercase;
+    padding-top: 20px;
+}
+
+.focus p{
+    margin-bottom: 40px;
+}
+
+.design-type{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 20px
+}
+.design-type div{
+    margin: 0 40px
+}
+
+/*contact===============*/
+
+.contact{ 
+    background-color: wheat;
+    padding-top: 30px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+form p{
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+input{
+    width: 600px;
+    background-color: rgb(233, 189, 189);
+    height: 40px;
+    font: 16px;
+    font-family: alice;
+    border-radius: 4px;
+    border: none;
+    padding-top: 10px;
+}
+
+textarea{
+    width: 600px;
+    height: 50px;
+    background-color:rgb(233, 189, 189) ;
+    font: 16px;
+    font-family: alice;
+    border-radius: 4px;
+    border: none;
+    padding-top: 10px;
+}
+button{
+    width: 100px;
+    height: 30px;
+    font: 16px;
+    border: none;
+    background-color: rgb(233, 189, 189);
+    border-radius: 5px;
+    margin: 20px;
+}
+
+button:hoover{
+    border: 3px solid #B2967D;
+    opacity: 0.85;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: repeat(5, 180px);
+}
+
+footer span {
+    font-size: 12px;
+    margin: 10px;
+    padding-bottom: 20px;
+    width: 100%;
+}
